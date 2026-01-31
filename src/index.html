@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <div class="flex items-center justify-between p-7 shadow-2xl">
+    <div class="lg:flex lg:items-center lg:justify-evenly p-7 shadow-2xl md:justify-between flex justify-between ">
         <div><img src="./imgQ/windom logo 4.png" alt=""></div>
-        <div class="flex items-center gap-10">
+        <div class="lg:flex items-center gap-10 md:hidden hidden">
             <p class="flex items-center gap-2">Наши проекты <img src="./imgQ/Vector (18).png" alt=""></p>
             <p class="flex items-center gap-2">Дома<img src="./imgQ/Vector (18).png" alt=""></p>
             <p class="flex items-center gap-2">Ипотека</p>
@@ -21,11 +21,232 @@
         <div class="flex items-center gap-10">
             <div class="flex items-center gap-5">
                 <img src="./imgQ/ph_phone.png" alt="">
-                <p>+7 (962) 555-25-25</p>
+                <img class="lg:hidden md:block block" src="./imgQ/iconamoon_menu-burger-horizontal-light.png" alt="">
+                <p class="hidden md:hidden lg:block">+7 (962) 555-25-25</p>
             </div>
-            <button class="p-3 border border-[#EFA35A]">Заказать звонок</button>
+            <button class="p-3 border border-[#EFA35A] hidden lg:block md:hidden">Заказать звонок</button>
         </div>
     </div>
+    <div class="bg-white shadow lg:flex items-start gap-10 max-w-7xl m-auto mt-5 ">
+        <div class="flex flex-col gap-3 p-2">
+            <div
+                class="bg-[url(./imgQ/bgimg.png)] bg-no-repeat bg-cover max-w-full h-[500px] lg:w-[818px] bg-center hidden lg:block md:block">
+            </div>
+            <div
+                class="bg-[url(./imgQ/Group246.png)] bg-no-repeat bg-cover max-w-full h-[500px] lg:w-[818px] bg-center block lg:hidden md:hidden">
+            </div>
+            <div class="flex items-center gap-2 lg:overflow-hidden overflow-x-auto">
+                <img src="./imgQ/Rectangle170.png" alt="">
+                <img src="./imgQ/Rectangle 171.png" alt="">
+                <img src="./imgQ/Rectangle 172.png" alt="">
+                <img src="./imgQ/Rectangle 173.png" alt="">
+                <img src="./imgQ/Rectangle 174.png" alt="">
+                <img src="./imgQ/Rectangle 175.png" alt="">
+                <img src="./imgQ/Rectangle 176.png" alt="">
+            </div>
+        </div>
+        <div class="flex flex-col gap-5 p-5">
+            <h1 class="text-[#000000] text-[26px] font-[700] p-2">Дом в классическом стиле площадью 139,8 м2</h1>
+            <div class="flex flex-row flex-wrap lg:flex-col gap-5  justify-start">
+                <div class="flex items-center gap-7">
+                    <img src="./imgQ/carbon_home.png" alt="">
+                    <p class="text-[20px]">Площадь дома - 139,8 м2</p>
+                </div>
+                <div class="flex items-center gap-5">
+                    <img src="./imgQ/carbon_floorplan.png" alt="">
+                    <p class="text-[20px]">Площадь участка - 5,1 сот.</p>
+                </div>
+                <div class="flex items-center gap-5">
+                    <img src="./imgQ/fluent-mdl2_custom-list.png" alt="">
+                    <p class="text-[20px]">Площадь участка - 5,1 сот.</p>
+                </div>
+                <div class="flex items-center gap-5">
+                    <img src="./imgQ/carbon_building.png" alt="">
+                    <p class="text-[20px]">Количество этажей - 2</p>
+                </div>
+                <div class="flex items-center gap-5">
+                    <img src="./imgQ/bi_door-open.png" alt="">
+                    <p class="text-[20px]">Количество комнат - 5</p>
+                </div>
+            </div>
+            <div class="md:flex md:items-start justify-around lg:flex-col lg:justify-start lg:items-start">
+                <p class="text-[24px] text-[#000000] flex items-center gap-5">Цена <span
+                        class="text-[#EFA35A] text-[23px] p-3">13 800 000 ₽</span></p>
+                        <div ><button class="bg-[#EFA35A] w-full p-3">Получить консультацию</button></div>
+                
+            </div>
+
+        </div>
+    </div>
+<div class="max-w-7xl m-auto mt-10 flex flex-col gap-6 lg:flex-row lg:justify-between">
+
+    <!-- LEFT BLOCK -->
+    <div class="shadow-2xl border border-gray-50 p-5 w-full lg:max-w-[700px]">
+
+        <!-- BLOCK 1 -->
+        <div class="flex flex-col gap-1 w-full">
+            <div class="flex gap-4 items-center">
+                <img src="./imgQ/bild.png" alt="">
+                <h1 class="text-[24px] text-[#000000]">Типы помещений</h1>
+            </div>
+
+            <div class="flex flex-col gap-2 p-5">
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>4 просторные спальни</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>2 с/у</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>кухня-гостиная</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>гардеробная</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>терраса</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>мансардный этаж</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>парковка на 2 машины</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOCK 2 -->
+        <div class="flex flex-col gap-1">
+            <div class="flex gap-4 items-center">
+                <img src="./imgQ/secd.png" alt="">
+                <h1 class="text-[24px] text-[#000000]">Типы помещений</h1>
+            </div>
+
+            <div class="flex flex-col gap-2 p-5">
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>4 просторные спальни</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>2 с/у</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>кухня-гостиная</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>гардеробная</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>терраса</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>мансардный этаж</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>парковка на 2 машины</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOCK 3 -->
+        <div class="flex flex-col gap-1">
+            <div class="flex gap-4 items-center">
+                <img src="./imgQ/third.png" alt="">
+                <h1 class="text-[24px] text-[#000000]">Типы помещений</h1>
+            </div>
+
+            <div class="flex flex-col gap-2 p-5">
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>4 просторные спальни</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>2 с/у</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>кухня-гостиная</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>гардеробная</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>терраса</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>мансардный этаж</p>
+                </div>
+                <div class="flex gap-3 items-center"><img src="./imgQ/Vector (19).png">
+                    <p>парковка на 2 машины</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT BLOCK -->
+    <div class="flex flex-col gap-10 p-5 shadow-2xl border border-gray-50 w-full lg:max-w-[550px]">
+
+        <h1 class="text-[36px] sm:text-[40px] lg:text-[46px] font-[500]">Ипотека</h1>
+
+        <!-- selects -->
+        <div class="flex flex-col sm:flex-row gap-4 text-[24px]">
+            <div class="flex flex-col gap-3 w-full">
+                <label>Вид недвижимости</label>
+                <select class="w-full bg-gray-200 p-3">
+                    <option>Все</option>
+                </select>
+            </div>
+
+            <div class="flex flex-col gap-3 w-full sm:w-[150px] text-[24px]">
+                <label>Проект</label>
+                <select class="w-full bg-gray-200 p-3">
+                    <option>Все</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-3 text-[24px]">
+            <label>Вид ипотеки</label>
+            <select class="w-full bg-gray-200 p-3">
+                <option>Все</option>
+            </select>
+        </div>
+
+        <!-- slider 1 -->
+        <div class="flex flex-col gap-3 relative text-[24px]">
+            <label>Вид ипотеки</label>
+            <input class="w-full bg-gray-200 p-3" placeholder="3 000 000$">
+            <div class="absolute top-[88px] left-[5%]">
+                <img class="w-10" src="./imgQ/Ellipse 13 (1).png">
+            </div>
+        </div>
+
+        <!-- slider 2 -->
+        <div class="flex flex-col gap-3 relative text-[24px]">
+            <label>Вид ипотеки</label>
+            <input class="w-full bg-gray-200 p-3" placeholder="2 000 000$">
+            <div class="absolute top-[105px] left-[5%]">
+                <img class="w-[75%]" src="./imgQ/Line 33.png">
+            </div>
+            <div class="absolute top-[88px] lg:left-[55%] left-[70%] md:left-[35%]">
+                <img class="w-10" src="./imgQ/Ellipse 13 (1).png">
+            </div>
+        </div>
+
+        <!-- slider 3 -->
+        <div class="flex flex-col gap-3 relative text-[24px]">
+            <label>Вид ипотеки</label>
+            <input class="w-full bg-gray-200 p-3" placeholder="60 000 $">
+            <div class="absolute top-[105px] left-[3%]">
+                <img class="w-[95%]" src="./imgQ/Line 33.png">
+            </div>
+            <div class="absolute top-[88px] lg:left-[65%] left-[90%] md:left-[45%]">
+                <img class="w-10" src="./imgQ/Ellipse 13 (1).png">
+            </div>
+        </div>
+
+        <button class="bg-[#EFA359] p-3 w-full text-[24px]">Рассчитать платёж</button>
+    </div>
+</div>
+
+
 </body>
 
 </html>
