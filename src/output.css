@@ -255,6 +255,9 @@
   .z-1 {
     z-index: 1;
   }
+  .clear-both {
+    clear: both;
+  }
   .m-auto {
     margin: auto;
   }
@@ -431,6 +434,18 @@
   }
   .w-\[40\%\] {
     width: 40%;
+  }
+  .w-\[42\%\] {
+    width: 42%;
+  }
+  .w-\[42\] {
+    width: 42;
+  }
+  .w-\[44\%\] {
+    width: 44%;
+  }
+  .w-\[45\%\] {
+    width: 45%;
   }
   .w-\[46\%\] {
     width: 46%;
@@ -771,6 +786,9 @@
   .p-\[20px\] {
     padding: 20px;
   }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -786,8 +804,23 @@
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
+  .px-16 {
+    padding-inline: calc(var(--spacing) * 16);
+  }
+  .px-20 {
+    padding-inline: calc(var(--spacing) * 20);
+  }
+  .px-24 {
+    padding-inline: calc(var(--spacing) * 24);
+  }
   .px-\[30px\] {
     padding-inline: 30px;
+  }
+  .px-\[65px\] {
+    padding-inline: 65px;
+  }
+  .px-\[70px\] {
+    padding-inline: 70px;
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -1395,6 +1428,11 @@
       padding: calc(var(--spacing) * 10);
     }
   }
+  .md\:px-\[65px\] {
+    @media (width >= 48rem) {
+      padding-inline: 65px;
+    }
+  }
   .md\:text-7xl {
     @media (width >= 48rem) {
       font-size: var(--text-7xl);
@@ -1536,9 +1574,24 @@
       width: 32%;
     }
   }
+  .lg\:w-\[32\] {
+    @media (width >= 64rem) {
+      width: 32;
+    }
+  }
   .lg\:w-\[42\%\] {
     @media (width >= 64rem) {
       width: 42%;
+    }
+  }
+  .lg\:w-\[44\%\] {
+    @media (width >= 64rem) {
+      width: 44%;
+    }
+  }
+  .lg\:w-\[45\%\] {
+    @media (width >= 64rem) {
+      width: 45%;
     }
   }
   .lg\:w-\[49\%\] {
@@ -1549,6 +1602,16 @@
   .lg\:w-\[50\%\] {
     @media (width >= 64rem) {
       width: 50%;
+    }
+  }
+  .lg\:w-\[300px\] {
+    @media (width >= 64rem) {
+      width: 300px;
+    }
+  }
+  .lg\:w-\[320px\] {
+    @media (width >= 64rem) {
+      width: 320px;
     }
   }
   .lg\:w-\[370px\] {
@@ -1669,6 +1732,11 @@
   .lg\:gap-7 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 7);
+    }
+  }
+  .lg\:gap-20 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 20);
     }
   }
   .lg\:gap-\[200px\] {
